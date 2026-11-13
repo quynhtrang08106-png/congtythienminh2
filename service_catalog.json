@@ -1,0 +1,71 @@
+[
+  {
+    "id": "SVC-SURVEY",
+    "name": "Khảo sát hạ tầng hiện trạng & Lập thiết kế kỹ thuật thi công (LLD)",
+    "unit": "Gói",
+    "unit_price_vnd": 5000000,
+    "cost_price_vnd": 2500000,
+    "man_days": 2,
+    "required_skill": "Senior Engineer"
+  },
+  {
+    "id": "SVC-CABLING-NODE",
+    "name": "Thi công kéo cáp mạng Cat6, bấm đầu mạng, bấm Patch Panel (bao gồm phụ kiện gen/ống)",
+    "unit": "Node",
+    "unit_price_vnd": 150000,
+    "cost_price_vnd": 90000,
+    "man_days_per_10_nodes": 1,
+    "required_skill": "Field Tech"
+  },
+  {
+    "id": "SVC-CONFIG-SWITCH",
+    "name": "Cấu hình Switch L2/L3 (VLAN, STP, LACP, OSPF, ACL, Stacking)",
+    "unit": "Thiết bị",
+    "unit_price_vnd": 2000000,
+    "cost_price_vnd": 1000000,
+    "man_days": 0.5,
+    "required_skill": "Deployment Engineer"
+  },
+  {
+    "id": "SVC-CONFIG-FIREWALL",
+    "name": "Cấu hình Next-Gen Firewall (Security Policy, NAT, SD-WAN, SSL VPN, IPS, Web Filtering)",
+    "unit": "Thiết bị",
+    "unit_price_vnd": 6000000,
+    "cost_price_vnd": 3000000,
+    "man_days": 1.5,
+    "required_skill": "Senior Engineer"
+  },
+  {
+    "id": "SVC-CONFIG-WIFI",
+    "name": "Cấu hình WiFi Controller / Cloud Managed & Tối ưu vùng phủ sóng RF, Roaming",
+    "unit": "Hệ thống (tối đa 15 AP)",
+    "unit_price_vnd": 5000000,
+    "cost_price_vnd": 2500000,
+    "man_days": 1.0,
+    "required_skill": "Deployment Engineer"
+  },
+  {
+    "id": "SVC-TEST-UAT",
+    "name": "Đo kiểm suy hao cáp Fluke, kiểm thử hiệu năng mạng (Throughput/Latency) & Bàn giao UAT",
+    "unit": "Gói",
+    "unit_price_vnd": 4000000,
+    "cost_price_vnd": 2000000,
+    "man_days": 1.0,
+    "required_skill": "Deployment Engineer"
+  },
+  {
+    "id": "SVC-MAINT-8x5xNBD",
+    "name": "Dịch vụ Bảo trì & Hỗ trợ kỹ thuật Tiêu chuẩn (8h/ngày, 5 ngày/tuần, thay thế NBD)",
+    "unit": "Năm",
+    "rate_percent_of_hardware": 10,
+    "sla": "8x5xNBD (Phản hồi trong 4h, giải quyết sự cố trong 24h làm việc)"
+  },
+  {
+    "id": "SVC-MAINT-24x7x4H",
+    "name": "Dịch vụ Bảo trì & Hỗ trợ kỹ thuật Cao cấp (24/7/365, onsite trong 4h, thiết bị dự phòng)",
+    "unit": "Năm",
+    "rate_percent_of_hardware": 18,
+    "sla": "24x7x4H (Có mặt tại chỗ trong 4h kể từ khi mở ticket)"
+  }
+]
+

@@ -1,0 +1,46 @@
+{
+  "current_date": "2026-11-13",
+  "engineers": [
+    {
+      "id": "ENG-SR-01",
+      "name": "Nguyễn Văn An",
+      "title": "Senior Solutions Architect & Lead Engineer",
+      "certifications": ["CCIE Enterprise Infrastructure", "NSE 7 Network Security Architect"],
+      "busy_until": "2026-11-25",
+      "status": "Busy on Project Alpha until 2026-11-25"
+    },
+    {
+      "id": "ENG-SR-02",
+      "name": "Trần Quốc Bảo",
+      "title": "Senior Security & Systems Engineer",
+      "certifications": ["CCNP Enterprise", "NSE 7 Public Cloud Security"],
+      "busy_until": "2026-11-18",
+      "status": "Available from 2026-11-19"
+    },
+    {
+      "id": "ENG-DEP-01",
+      "name": "Lê Văn Cường",
+      "title": "Network Deployment Specialist",
+      "certifications": ["CCNP Enterprise", "NSE 4"],
+      "busy_until": "2026-11-14",
+      "status": "Available from 2026-11-15"
+    },
+    {
+      "id": "ENG-DEP-02",
+      "name": "Phạm Minh Đức",
+      "title": "Wireless & Switching Specialist",
+      "certifications": ["Aruba Certified Mobility Associate", "CCNA"],
+      "busy_until": "2026-11-15",
+      "status": "Available from 2026-11-16"
+    }
+  ],
+  "technician_pool": {
+    "total_technicians": 6,
+    "available_nodes_per_day": 30
+  },
+  "deployment_capacity_rules": {
+    "min_buffer_days": 3,
+    "senior_engineer_required_categories": ["Firewall", "Layer 3 Routing Core", "Complex SLA"]
+  }
+}
+

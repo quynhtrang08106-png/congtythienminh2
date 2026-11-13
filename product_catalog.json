@@ -1,0 +1,171 @@
+[
+  {
+    "id": "SW-C3850-24P",
+    "name": "Cisco Catalyst 3850 24 Port PoE+ IP Base",
+    "category": "Switch",
+    "brand": "Cisco",
+    "specs": {
+      "ports": "24x 10/100/1000 Ethernet PoE+ ports",
+      "uplink": "4x 10G SFP+ modular uplink",
+      "layer": "Layer 3 (OSPF, EIGRP, BGP, RIP)",
+      "poe_budget_watt": 435,
+      "stacking": true,
+      "redundant_power": true,
+      "throughput_gbps": 92
+    },
+    "cost_price_vnd": 65000000,
+    "standard_price_vnd": 88000000,
+    "warranty_months": 36,
+    "lead_time_days": 10
+  },
+  {
+    "id": "SW-C2960X-48FPS",
+    "name": "Cisco Catalyst 2960-X 48 GigE PoE 740W",
+    "category": "Switch",
+    "brand": "Cisco",
+    "specs": {
+      "ports": "48x 10/100/1000 Ethernet PoE+ ports",
+      "uplink": "4x 1G SFP",
+      "layer": "Layer 2+ (Static Routing, RIP)",
+      "poe_budget_watt": 740,
+      "stacking": true,
+      "redundant_power": false,
+      "throughput_gbps": 108
+    },
+    "cost_price_vnd": 45000000,
+    "standard_price_vnd": 62000000,
+    "warranty_months": 36,
+    "lead_time_days": 7
+  },
+  {
+    "id": "SW-ARUBA-2930F-48G",
+    "name": "Aruba 2930F 48G PoE+ 4SFP+ Switch (JL256A)",
+    "category": "Switch",
+    "brand": "Aruba",
+    "specs": {
+      "ports": "48x 10/100/1000 PoE+ ports",
+      "uplink": "4x 10G SFP+ fixed",
+      "layer": "Layer 3 (Static, RIP, OSPF)",
+      "poe_budget_watt": 370,
+      "stacking": true,
+      "redundant_power": false,
+      "throughput_gbps": 128
+    },
+    "cost_price_vnd": 42000000,
+    "standard_price_vnd": 58000000,
+    "warranty_months": 36,
+    "lead_time_days": 5
+  },
+  {
+    "id": "SW-RJ-NBS3100-24GT4SFP",
+    "name": "Ruijie Reyee 24-Port Gigabit Managed L2+ PoE Switch",
+    "category": "Switch",
+    "brand": "Ruijie",
+    "specs": {
+      "ports": "24x 10/100/1000 PoE+ ports",
+      "uplink": "4x 1G/2.5G SFP",
+      "layer": "Layer 2+ (Static Route, VLAN, QoS)",
+      "poe_budget_watt": 370,
+      "stacking": false,
+      "redundant_power": false,
+      "throughput_gbps": 56
+    },
+    "cost_price_vnd": 12000000,
+    "standard_price_vnd": 18000000,
+    "warranty_months": 36,
+    "lead_time_days": 3
+  },
+  {
+    "id": "FW-FORTI-60F",
+    "name": "Fortinet FortiGate 60F Hardware plus 1 Year Unified Threat Protection (UTP)",
+    "category": "Firewall",
+    "brand": "Fortinet",
+    "specs": {
+      "ports": "10x GE RJ45 (including 2x WAN, 1x DMZ, 7x Internal)",
+      "ips_throughput": "1 Gbps",
+      "ngfw_throughput": "800 Mbps",
+      "threat_protection": "700 Mbps",
+      "ssl_vpn_throughput": "900 Mbps",
+      "concurrent_sessions": 700000,
+      "redundant_power": false,
+      "max_users": 100
+    },
+    "cost_price_vnd": 18000000,
+    "standard_price_vnd": 26000000,
+    "warranty_months": 12,
+    "lead_time_days": 5
+  },
+  {
+    "id": "FW-FORTI-100F",
+    "name": "Fortinet FortiGate 100F Hardware plus 3 Years Enterprise Protection",
+    "category": "Firewall",
+    "brand": "Fortinet",
+    "specs": {
+      "ports": "22x GE RJ45, 4x 10GE SFP+ slots, 2x 10G SFP+ FortiLinks",
+      "ips_throughput": "2.6 Gbps",
+      "ngfw_throughput": "1.6 Gbps",
+      "threat_protection": "1 Gbps",
+      "ssl_vpn_throughput": "1 Gbps",
+      "concurrent_sessions": 1500000,
+      "redundant_power": true,
+      "max_users": 500
+    },
+    "cost_price_vnd": 68000000,
+    "standard_price_vnd": 95000000,
+    "warranty_months": 36,
+    "lead_time_days": 10
+  },
+  {
+    "id": "AP-ARUBA-AP515",
+    "name": "Aruba AP-515 Unified Campus Access Point (WiFi 6 - 802.11ax)",
+    "category": "Access Point",
+    "brand": "Aruba",
+    "specs": {
+      "standard": "WiFi 6 (802.11ax)",
+      "radios": "Dual radio 4x4:4 5GHz + 2x2:2 2.4GHz",
+      "max_speed": "4.8 Gbps (5GHz) + 575 Mbps (2.4GHz)",
+      "poe_standard": "802.3at PoE+",
+      "bluetooth_iot": true,
+      "max_concurrent_users": 512
+    },
+    "cost_price_vnd": 14000000,
+    "standard_price_vnd": 19500000,
+    "warranty_months": 36,
+    "lead_time_days": 5
+  },
+  {
+    "id": "AP-RUJIE-RAP2260G",
+    "name": "Ruijie Reyee RG-RAP2260(G) Wi-Fi 6 AX1800 Ceiling AP",
+    "category": "Access Point",
+    "brand": "Ruijie",
+    "specs": {
+      "standard": "WiFi 6 (802.11ax)",
+      "radios": "Dual-band 2x2:2 MU-MIMO",
+      "max_speed": "1201 Mbps (5GHz) + 574 Mbps (2.4GHz)",
+      "poe_standard": "802.3at/af PoE",
+      "bluetooth_iot": false,
+      "max_concurrent_users": 110
+    },
+    "cost_price_vnd": 2400000,
+    "standard_price_vnd": 3500000,
+    "warranty_months": 36,
+    "lead_time_days": 2
+  },
+  {
+    "id": "RT-CISCO-ISR4331",
+    "name": "Cisco ISR 4331/K9 Integrated Services Router",
+    "category": "Router",
+    "brand": "Cisco",
+    "specs": {
+      "throughput_mbps": "100 Mbps to 300 Mbps aggregate",
+      "interfaces": "3x GE (RJ45/SFP combo), 2x NIM slots, 1x SM slot",
+      "security": "IPSec, DMVPN, Zone-based Firewall, SSL VPN",
+      "redundant_power": false
+    },
+    "cost_price_vnd": 55000000,
+    "standard_price_vnd": 76000000,
+    "warranty_months": 36,
+    "lead_time_days": 14
+  }
+]
+

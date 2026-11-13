@@ -1,0 +1,65 @@
+{
+  "discount_matrix": [
+    {
+      "min_discount": 0.0,
+      "max_discount": 0.08,
+      "approver_role": "SALES_REP",
+      "approver_name": "Nhân viên Kinh doanh tự quyết",
+      "description": "Chiết khấu thông thường trong hạn mức tiêu chuẩn"
+    },
+    {
+      "min_discount": 0.0801,
+      "max_discount": 0.12,
+      "approver_role": "SALES_MANAGER",
+      "approver_name": "Trưởng phòng Kinh doanh",
+      "description": "Chiết khấu vượt mức tiêu chuẩn, cần Trưởng phòng duyệt dựa trên quy mô và quan hệ khách hàng"
+    },
+    {
+      "min_discount": 0.1201,
+      "max_discount": 0.20,
+      "approver_role": "BOARD_OF_DIRECTORS",
+      "approver_name": "Ban Giám đốc (CEO/Phó Giám đốc điều hành)",
+      "description": "Chiết khấu chiến lược quy mô lớn, ảnh hưởng biên lợi nhuận công ty"
+    },
+    {
+      "min_discount": 0.2001,
+      "max_discount": 1.0,
+      "approver_role": "REJECT_OR_SPECIAL_BOARD",
+      "approver_name": "Ban Giám đốc & Hội đồng Quản trị",
+      "description": "Vượt trần chiết khấu tối đa, mặc định từ chối trừ dự án đặc biệt"
+    }
+  ],
+  "governance_rules": {
+    "min_gross_margin_rate": 0.22,
+    "max_standard_payment_delay_days": 45,
+    "max_standard_penalty_rate_per_day": 0.005,
+    "mandatory_escalation_triggers": [
+      {
+        "trigger_code": "OUT_OF_CATALOG",
+        "description": "Thiết bị hoặc dịch vụ nằm ngoài danh mục chuẩn (Master Catalog)",
+        "approver": "Trưởng bộ phận Kỹ thuật & Trưởng phòng KD"
+      },
+      {
+        "trigger_code": "SCHEDULE_MISMATCH",
+        "description": "Thời hạn hoàn thành bàn giao ngắn hơn Tổng thời gian nhập hàng (Lead time) + Triển khai",
+        "approver": "Trưởng phòng Vận hành & Triển khai"
+      },
+      {
+        "trigger_code": "HIGH_SLA_PENALTY",
+        "description": "Yêu cầu SLA phản hồi 24x7 dưới 4h hoặc phạt tiến độ hợp đồng > 0.5%/ngày",
+        "approver": "Ban Giám đốc"
+      },
+      {
+        "trigger_code": "LOW_GROSS_MARGIN",
+        "description": "Biên lợi nhuận gộp sau chiết khấu thấp hơn 22%",
+        "approver": "Ban Giám đốc & Kế toán trưởng"
+      },
+      {
+        "trigger_code": "UNCONFIRMED_COMPLIANCE",
+        "description": "Có điều kiện kỹ thuật bắt buộc chưa được giải pháp đáp ứng 100%",
+        "approver": "Trưởng bộ phận Kỹ thuật"
+      }
+    ]
+  }
+}
+
